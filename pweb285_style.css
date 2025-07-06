@@ -1,0 +1,60 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #e6f2ff; /* Biru muda background */
+}
+
+.poll-box {
+  max-width: 400px;
+  margin: 100px auto;
+  background: #ffffff;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  border-top: 5px solid #4da6ff; /* Biru terang aksen atas */
+}
+
+.poll-box h1 {
+  margin: 0 0 20px;
+  font-size: 22px;
+  text-align: center;
+  color: #004080; /* Biru tua */
+}
+
+.option {
+  background: #f0f8ff; /* Biru putih lembut */
+  padding: 12px 15px;
+  border-radius: 6px;
+  margin-bottom: 10px;
+  transition: background 0.3s;
+}
+
+.option:hover {
+  background: #cce6ff; /* Biru muda lebih pekat saat hover */
+}
+
+.option input[type="radio"] {
+  margin-right: 10px;
+}
+
+.option label {
+  cursor: pointer;
+  color: #003366; /* Biru tua label */
+}
+
+button {
+  display: block;
+  width: 100%;
+  padding: 12px;
+  border: none;
+  background: #4da6ff;
+  color: #fff;
+  font-size: 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background: #3399ff;
+}
